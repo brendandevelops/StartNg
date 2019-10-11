@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<!--style starts here-->
+<style>
+
+
+    *,
+*::before,
+*::after {
+    font-family: 'Nunito', sans-serif;
+    background: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+#world-class {
+    text-align: center;
+    padding: 20;
+    font-size: 25px;
+    letter-spacing: 0.65;
+    color: #2A2B2A;
+    font-weight: 500;
+    margin: 20px;
+}
+#HNG-inter {
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 30px;  
+}
+#internship {
+    margin: 20px 0;
+}
+.click {
+    background: #FFFFFF;
+}
+.stack-link {
+    text-align: center;
+    -webkit-text-fill-color: rgba(51, 51, 51, 0.4);
+}
+.Stack-develop {
+    border: 1px solid;
+    max-width: 1000px;
+    margin: 15px auto;
+    
+    
+}
+.Full-stack {
+    display: grid;
+    grid-template-columns: 700px 100px;
+    grid-template-rows: auto;
+    background: url("https://res.cloudinary.com/brendandevelops/image/upload/v1570808985/green_b5e97p.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+  
+}
+@media screen and (max-width: 787px) {
+    .Full-stack {
+      display: block;
+    }
+}
+.full-stack-develop {
+    padding: 40px; 
+}
+.click {
+    margin: 60px;
+    width: 120px;
+    height: 40px;
+    color: #44CF6C;
+    border-radius: 10px;
+    border: 1px;
+}
+.curriculum-accordio {
+    width: 100%;
+    height: 100vh;
+}
+.startng-curriculum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+@media screen and (max-width: 787px) {
+    .startng-curriculum {
+      display: block;
+    }
+}
+.Curriculum {
+    max-width: 70rem;
+    margin: 40px auto;
+    padding: 0 120px;
+}
+.accordion-item {
+    margin-bottom: 20px;
+    border: 1px solid;
+    background-color: #DBCCD9;
+    padding: 1px; 
+}
+.accordion-link {
+    font-size: 25px; 
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    background-color: #DBCCD9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.accordion-link i {
+    color: #000000;
+    padding: 5px;
+}
+.accordion-link .ion-md-remove {
+    display: none; 
+}
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #E5E5E5;
+    transition: max-height 650ms;
+}
+.answer p {
+      font-size: 20px;
+      color: #000000;
+      line-height: 30px;
+      font-family: lato;
+      padding: 5px 10px;
+}
+.accordion-item:target .answer {
+    max-height: 290px;
+}
+.accordion-item:target .accordion-link .ion-md-add {
+    display: none;
+}
+.accordion-item:target .accordion-link .ion-md-remove {
+    display: block;
+}
+.icon {
+    background: #DBCCD9;
+}
+#mobiledevlop,
+#digital {
+    margin: 0 20px
+}
+
+</style>
+
+<!--style ends here-->
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>course</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    
+    <script src="main.js"></script>
+</head>
+<body>
+    <h3 id="world-class">World Class Curriculums Just For You</h3>
+    <p id="HNG-inter">The HNG internship is a 3-month remote internship designed to find and develop the most talented software developers.</p>
+    <div class="stack-link">
+    <span id="fullstack"><a href="#" actve>Full Stack Development</a></span><span id="mobiledevlop"><a href="#">Mobile App Development</a></span><span id="artifcial"><a href="#">Artificial Intelligent</a></span>
+    <span id="digital"><a href="#">Digital Marketing</a></span><span id="brand"><a href="#">Brand...</a><i class="icon ion-md-remove"></i></span>
+    </div>
+    <div class="Stack-develop">
+    <div class="Full-stack">
+    <div class="full-stack-develop">
+        <h4>Full Stack Development Curriculum</h4>
+        <P id="internship">The HNG internship is a 3-month remote internship designed to find and develop the most talented software developers.</P>
+       </div> 
+        <div class="intern">
+        <button class="click" type="button">Start Learning</button>
+        </div>
+        </div>
+    </div>
+    </body>
+    <section class="curriculum-accordio">
+        <div class= "Curriculum">
+            <div class="accordion">
+                    <div class="startng-curriculum">
+                <div class="accordion-item" id="question1">
+                    <a class="accordion-link" href="#question1">
+                        Introduction
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question2">
+                    <a class="accordion-link" href="#question2">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question3">
+                    <a class="accordion-link" href="#question3">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>tThe scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question4">
+                    <a class="accordion-link" href="#question4">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question5">
+                    <a class="accordion-link" href="#question5">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question6">
+                    <a class="accordion-link" href="#question6">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                </div>
+                <div class="startng-curriculum">
+                <div class="accordion-item" id="question7">
+                    <a class="accordion-link" href="#question7">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item" id="question8">
+                    <a class="accordion-link" href="#question8">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question9">
+                    <a class="accordion-link" href="#question9">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question10">
+                    <a class="accordion-link" href="#question10">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question11">
+                    <a class="accordion-link" href="#question11">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question12">
+                    <a class="accordion-link" href="#question12">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question13">
+                    <a class="accordion-link" href="#question13">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question14">
+                    <a class="accordion-link" href="#question14">
+                        Lorem Ipsum
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>The software Development Process-overview</p>
+                    <p>Design pattern-definition</p>
+                    <p>The scenario in a software project</p>
+                    <p>The problem:understandingthe customer requirement</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
